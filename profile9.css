@@ -1,0 +1,166 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+  }
+  
+  body {
+     min-height: 100vh;
+  background-size: cover;
+  background-position: center;
+  }
+  
+  header img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+  }
+  
+  .profile {
+    width: 420px;
+  background: transparent;
+  border: 2px solid rgba(255, 255, 255,.2);
+  backdrop-filter: blur(20px);
+  box-shadow: 0 0 10px rgba(0, 0, 0,.2);
+  color: #fff;
+  border-radius: 10px;
+  padding: 30px 40px;
+  margin: 0 auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+  
+  
+  .profile-pic {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 20px auto;
+    margin-bottom: 10px; /* reduce the margin between the photo and the info */
+  }
+  
+  .profile-pic img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .profile-info {
+    padding: 20px;
+    text-align: center; /* center the contents */
+    margin-top: -20px; /* move the info up to overlap with the photo */
+  }
+  
+  .profile-info h2 {
+    margin-top: 0;
+  }
+  
+  .background-image {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    z-index: -1;
+  }
+  
+  .background-image img {
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+    filter: blur(5px);
+  } 
+  
+  
+  .username {
+    margin-bottom: 5px; /* reduce the margin between the username and the label */
+  }
+  
+  .user-label {
+    font-size: 16px; /* adjust the font size to your liking */
+    color: #797e7dea; /* adjust the color to your liking */
+    margin-bottom: 20px; /* add some space between the label and the button */
+  }
+  .profile-button-container {
+    text-align: center; /* center the button horizontally */
+    margin-top: 5px; /* add some space above the button */
+  }
+  
+  .update-profile-button {
+    font-size: 1rem; /* increase font size to make the button larger */
+    padding: 0.3rem 0.8rem; /* add more padding to make the button bigger */
+    border-radius: 5px; /* add a rounded corner effect */
+    background-color: #ffff; /* green background color */
+    color: black; /* white text color */
+    border: none; /* remove border */
+    cursor: pointer; /* change cursor shape to a pointing hand */
+  }
+  
+  .update-profile-button:hover {
+    background-color: #00A2E2FF; /* darker green background color on hover */
+  }
+  .box-container {
+    display: flex;
+    justify-content: center;
+    margin:2rem 0; /* Reduce top and bottom margins */
+    padding: 0.8rem; /* Reduce padding */
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .box {
+    border-radius: 5px;
+    padding: 0.8rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column; /* Add this to stack elements vertically */
+    align-items: center;
+  }
+  
+  .flex {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px; /* Add some space between the text and the button */
+    gap: 10px;
+  }
+  
+  .flex i {
+    font-size: 1.5rem;
+    color: #fffcfc;
+    margin-right: 10px;
+  }
+  
+  .flex h3 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color:#fffcfc;
+  }
+  
+  .flex span {
+    font-size: 1.2rem;
+    color: #fffcfc;
+    margin-right: 10px;
+  }
+  .ver-historico-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffff;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    padding: 0.3rem 0.8rem;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    gap: 0.5rem;
+    width: 100%; /* Make the button full-width */
+  }
+  .ver-historico-btn:hover {
+    color: #000; /* Black text on hover */
+    background-color: #00A2E2FF;
+  }

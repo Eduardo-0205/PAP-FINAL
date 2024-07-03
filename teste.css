@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+  }
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url('image/teste2.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: #FFFFFF;
+    font-family: sans-serif; /* Add a font for better readability */
+  }
+  
+  .register {
+    width: 700px;
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255, .2);
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+    color: #fff;
+    border-radius: 10px;
+    padding: 30px 40px;
+    text-align: center; /* Center text within the register container */
+    margin: 0 auto; /* Add this to center horizontally */
+  }
+  
+  h2 {
+    color: #fff;
+    margin-bottom: 20px;
+  }
+  
+  .flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; /* Center items vertically within flex containers */
+  }
+  
+  .col {
+    flex-basis: 45%;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="password"],
+  input[type="file"] {
+    background-color: rgba(255, 255, 255, 0.2);
+    border: 1px solid #fff;
+    border-radius: 5px;
+    padding: 10px;
+    width: 100%;
+    margin-bottom: 10px;
+    color: #fff;
+  }
+  
+  button[type="submit"] {
+    width: 100%;
+    background-color: #FFFFFF;
+    color: black;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .link {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .link:hover {
+    text-decoration: underline;
+  }
+  .update-profile-btn {
+    padding: 12px 24px;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 10px;
+    background-color: #00A2E2FF; /* or any other color you prefer */
+    color: #000;
+    cursor: pointer;
+  }
+  .update-profile-btn:hover {
+    color: #000; /* Black text on hover */
+    background-color: #00A2E2FF;
+  }
+  .heading h1 {
+    text-align: center;
+  }
